@@ -1,0 +1,70 @@
+.mainContainer {
+  width: 100%;
+  height: 300px;
+  padding-top: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    padding: 1%;
+    box-shadow: 0 0 20px 8px #d0d0d0;
+    border-radius: 5%;
+
+    .title {
+      font-size: 20px;
+      padding-bottom: 5%;
+    }
+
+    .equals {
+      width: 3%;
+      font-size: 25px;
+      font-weight: 700;
+    }
+
+    input {
+      height: calc(2.25rem + 2px);
+      font-family: inherit;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #212529;
+      background-color: rgb(235, 235, 235);
+      background-clip: padding-box;
+      border: 1px solid #bdbdbd;
+      border-radius: 0.25rem;
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+        background-color 0.15s ease-in-out;
+    }
+
+    input:hover {
+      background-color: lightblue;
+    }
+
+    select {
+      height: calc(2.25rem + 2px);
+      font-family: inherit;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #212529;
+      background-color: rgb(235, 235, 235);
+      background-clip: padding-box;
+      border: 1px solid #bdbdbd;
+      border-radius: 0.25rem;
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+        background-color 0.15s ease-in-out;
+    }
+
+    select:hover {
+      background-color: lightblue;
+    }
+  }
+}
